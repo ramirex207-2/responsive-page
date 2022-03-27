@@ -5,8 +5,78 @@
 }
 body{
     background: black;
-    color: aliceblue;
+    color: #fff;
+    background-color: #828fe0;
+    background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.4'%3E%3Cpath d='M50 50c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10zM10 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10S0 25.523 0 20s4.477-10 10-10zm10 8c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm40 40c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
 }
 a{
     color: aliceblue;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.conteiner{
+    width: 90%;
+    margin: auto;
+}
+/*Navigation*/
+.nav-main{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+.nav-bar{
+    width: 50px;
+}
+.nav-main ul{
+    display: flex;
+}
+.nav-main ul li {
+    padding: 40px;
+}
+.nav-main ul li a:hover{
+    border-bottom: 2px solid white;
+}
+.nav-main ul.nav-menu{
+    flex: 1;
+    margin-left: 20px;
+}
+hr{
+    color: #fff;
+    margin: 10px 0;
+}
+.showcase{
+    background: red;
+    width: 100%;
+    height: 550px;
+    background: url("./img/cometas-y-planetas-en-paisaje-digital-urbano-en-la-noche_1280x720_xtrafondos.com.jpg") no-repeat center/cover;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    border: 0px;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #262626;
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #fff;
+    margin: 10px 0px;
+}
+.btn:hover{
+    opacity: .7;
+}
+.showcase h2, .showcase a{
+    margin-bottom: 10px;
 }
